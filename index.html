@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+    
+        <ul class="nav_start">
+            <li><img src="imgs/saavn-logo-icon.png" alt="music logo"></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Browse</a></li>
+            <li><a href="#">Upgrade</a></li>
+        </ul>
+        
+        <ul class="nav_center">
+            <li><ion-icon name="search-outline"></ion-icon>
+                <a href="#">Search</a>
+            </li>
+        </ul>
+        <ul class="nav_end">
+            <li>Music Languages <ion-icon name="chevron-down-outline"></ion-icon></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">SignUp</a></li>
+        </ul>
+             
+    </nav>
+
+
+    <div class="content">
+        <div class="side_bar">
+            <div class="side_bar_header">
+                Library
+            </div>
+            <p><ion-icon name="timer-outline"></ion-icon>History</p>
+            <p><ion-icon name="musical-note-outline"></ion-icon>Songs</p>
+            <p><ion-icon name="disc-outline"></ion-icon>Albums</p>
+            <p><ion-icon name="mic-outline"></ion-icon>Podcasts</p>
+            <p><ion-icon name="pencil-outline"></ion-icon>Artists</p>
+            <div id="button"></div>
+            <button>+ New Playlist</button>
+            
+        </div>
+        <div class="main_content">
+            <img src="imgs/Album_img.jpg" alt="Album image">
+            <div class="song_description">
+                
+                <h1>Jai Bajarangi</h1>
+                <p>Bajarangi  by Shankar Mahadevan</p>
+                <p>Song   ·  1,305,776 Plays  ·  4:30  ·  Kannada</p>
+                <p>© 2013 Aananda Audio Video</p>
+                <span id="options">
+                    <button> Play </button>
+                    <ion-icon class="icons" name="heart-outline"></ion-icon>
+                    <ion-icon class="icons" name="ellipsis-horizontal-outline"></ion-icon>
+                </span>
+
+            </div>              
+            
+        </div>
+    </div>
+    <footer>
+        <div class="left">
+            <img src="imgs/Album_img.jpg" alt="album image" widht="50px" height="50px">
+            <div>
+                <p>Jai Bajarangi</p>
+                <p>Shankar mahadevan</p>
+            </div>
+        </div>
+
+        <div class="centre">
+            <ion-icon name="repeat-outline"></ion-icon>
+            <ion-icon name="play-skip-back"></ion-icon>
+            <ion-icon name="play"></ion-icon>
+            <ion-icon name="play-skip-forward"></ion-icon>
+            <ion-icon name="shuffle"></ion-icon>
+        </div>
+
+        <div class="right">
+            <p>0.00/4.40</p>
+            <ion-icon class="icons" name="ellipsis-horizontal-outline"></ion-icon>
+            <ion-icon name="volume-high"></ion-icon>
+            <ion-icon name="expand"></ion-icon>
+        </div>
+    </footer>
+</body>
+</html>
